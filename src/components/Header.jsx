@@ -40,9 +40,9 @@ export default function Header() {
               <div className='button'><Link to='/login'><div>Login</div></Link></div>
             </>)
         }
-        <div className='button' onClick={handleToggle}>
+        {loggesInUser && <div className='button' onClick={handleToggle}>
           <div><span className="material-symbols-outlined">menu</span>Menu</div>
-        </div>
+        </div>}
       </div>
       {openPanel ? <div className='sidepanel'>
         {list.map(item => (
