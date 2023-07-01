@@ -1,0 +1,35 @@
+#about {
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 4px;
+  width: 50%;
+  margin: 40px auto;
+}
+
+#about .heading {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  margin-top: 0.625rem;
+  border-bottom: 1px solid lightgray;
+}
+
+/* #about .content {
+
+} */
+
+#about .content p {
+  margin: 10px 0;
+  line-height: 1.5rem;
+}
+
+#about .content ul li {
+  margin: 10px 40px;
+  line-height: 1.5rem;
+}
+
+#about a {
+  color: #4d84ff;
+}

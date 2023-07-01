@@ -1,0 +1,124 @@
+#home {
+  padding: 30px 20px;
+  background-color: #fdfdfd;
+}
+
+#home .banner {
+  padding: 40px 0;
+}
+
+#home .banner .heading{
+  font-size: 32px;
+  font-weight: 400;
+  color: #787676;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 40px;
+}
+
+#home .banner .statement {
+  margin-bottom: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+#home .banner .statement .container {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: #464646;
+  background-color: rgba(252,178,68,.2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#home .banner .statement .container div {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#home .banner .statement .container div:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+#home .benifits {
+  padding: 40px 0;
+}
+
+#home .benifits .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #787676;
+  position: relative;
+  font-size: 32px;
+}
+
+#home .benifits .heading .left {
+  width: 30%;
+  border-bottom: 1px solid #707070;
+  opacity: .5;
+  position: relative;
+}
+
+#home .benifits .heading .left:after {
+  position: absolute;
+  border: 1px solid #fd3752;
+  top: -10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  right: -20px;
+}
+
+#home .benifits .heading .right {
+  width: 30%;
+  border-bottom: 1px solid #707070;
+  opacity: .5;
+  position: relative;
+}
+
+#home .benifits .heading .right:before {
+  position: absolute;
+  border: 1px solid #fd3752;
+  top: -10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  left: -20px;
+}
+
+#home .benifits .content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+#home .benifits .content .card {
+  /* width: 20%; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 200px;
+}
+
+#home .benifits .content .card img {
+  vertical-align: middle;
+}
+
+#home .benifits .content .card .heading {
+  text-align: center;
+  font-size: 18px;
+}
+
+#home .benifits .content .card .sub-heading {
+  text-align: center;
+  padding: 0 19%;
+}

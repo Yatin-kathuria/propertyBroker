@@ -1,0 +1,163 @@
+.signup-root {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin: 24px 0;
+}
+
+.signup-root h1 {
+  letter-spacing: -1px;
+}
+.signup-root a {
+color: #5469d4;
+text-decoration: unset;
+}
+.signup-root .flex-flex {
+  display: flex;
+}
+.signup-root .align-center {
+align-items: center; 
+}
+.signup-root .center-center {
+align-items: center;
+justify-content: center;
+}
+.signup-root .box-root {
+  box-sizing: border-box;
+}
+.signup-root .flex-direction--column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.signup-root .box-divider--light-all-2 {
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+}
+.signup-root .box-background--blue {
+  background-color: #5469d4;
+}
+.signup-root .box-background--white {
+background-color: #ffffff; 
+}
+.signup-root .box-background--blue800 {
+  background-color: #212d63;
+}
+.signup-root .box-background--gray100 {
+  background-color: #e3e8ee;
+}
+.signup-root .box-background--cyan200 {
+  background-color: #7fd3ed;
+}
+.signup-root .padding-top--64 {
+padding-top: 64px;
+}
+.signup-root .padding-top--24 {
+padding-top: 24px;
+}
+.signup-root .padding-top--48 {
+padding-top: 48px;
+}
+.signup-root .padding-bottom--24 {
+padding-bottom: 24px;
+}
+.signup-root .padding-horizontal--48 {
+padding: 48px;
+}
+.signup-root .padding-bottom--15 {
+padding-bottom: 15px;
+}
+
+.signup-root .flex-justifyContent--center {
+-ms-flex-pack: center;
+justify-content: center;
+}
+
+.signup-root .formbg {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+.signup-root span {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+.signup-root label {
+  margin-bottom: 10px;
+}
+.signup-root .reset-pass a,label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+.signup-root .reset-pass > a {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.signup-root .grid--50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.signup-root .field input {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+}
+
+.signup-root input[type="submit"] {
+  background-color: #007a6f;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-root .field select {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  -webkit-appearance: none;
+}
+.signup-root .field-checkbox input {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px; 
+  box-shadow: unset;
+  min-height: unset;
+}
+.signup-root .field-checkbox label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.signup-root a.ssolink {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+.signup-root .footer-link span {
+  font-size: 14px;
+  text-align: center;
+}
+.signup-root .listing a {
+  color: #697386;
+  font-weight: 600;
+  margin: 0 10px;
+}

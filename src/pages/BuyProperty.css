@@ -1,0 +1,163 @@
+.buy-property {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin: 24px 0;
+}
+
+.buy-property h1 {
+  letter-spacing: -1px;
+}
+.buy-property a {
+color: #5469d4;
+text-decoration: unset;
+}
+.buy-property .flex-flex {
+  display: flex;
+}
+.buy-property .align-center {
+align-items: center; 
+}
+.buy-property .center-center {
+align-items: center;
+justify-content: center;
+}
+.buy-property .box-root {
+  box-sizing: border-box;
+}
+.buy-property .flex-direction--column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.buy-property .box-divider--light-all-2 {
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+}
+.buy-property .box-background--blue {
+  background-color: #5469d4;
+}
+.buy-property .box-background--white {
+background-color: #ffffff; 
+}
+.buy-property .box-background--blue800 {
+  background-color: #212d63;
+}
+.buy-property .box-background--gray100 {
+  background-color: #e3e8ee;
+}
+.buy-property .box-background--cyan200 {
+  background-color: #7fd3ed;
+}
+.buy-property .padding-top--64 {
+padding-top: 64px;
+}
+.buy-property .padding-top--24 {
+padding-top: 24px;
+}
+.buy-property .padding-top--48 {
+padding-top: 48px;
+}
+.buy-property .padding-bottom--24 {
+padding-bottom: 24px;
+}
+.buy-property .padding-horizontal--48 {
+padding: 48px;
+}
+.buy-property .padding-bottom--15 {
+padding-bottom: 15px;
+}
+
+.buy-property .flex-justifyContent--center {
+-ms-flex-pack: center;
+justify-content: center;
+}
+
+.buy-property .formbg {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+.buy-property span {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+.buy-property label {
+  margin-bottom: 10px;
+}
+.buy-property .reset-pass a,label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+.buy-property .reset-pass > a {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.buy-property .grid--50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.buy-property .field input {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+}
+
+.buy-property input[type="submit"] {
+  background-color: #007a6f;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buy-property .field select {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  -webkit-appearance: none;
+}
+.buy-property .field-checkbox input {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px; 
+  box-shadow: unset;
+  min-height: unset;
+}
+.buy-property .field-checkbox label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.buy-property a.ssolink {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+.buy-property .footer-link span {
+  font-size: 14px;
+  text-align: center;
+}
+.buy-property .listing a {
+  color: #697386;
+  font-weight: 600;
+  margin: 0 10px;
+}

@@ -1,0 +1,187 @@
+.login-root {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  margin: 48px 0;
+}
+
+.login-root h1 {
+  letter-spacing: -1px;
+}
+.login-root a {
+color: #5469d4;
+text-decoration: unset;
+}
+.login-root .flex-flex {
+  display: flex;
+}
+.login-root .align-center {
+align-items: center; 
+}
+.login-root .center-center {
+align-items: center;
+justify-content: center;
+}
+.login-root .box-root {
+  box-sizing: border-box;
+}
+.login-root .flex-direction--column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.login-root .box-divider--light-all-2 {
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+}
+.login-root .box-background--blue {
+  background-color: #5469d4;
+}
+.login-root .box-background--white {
+background-color: #ffffff; 
+}
+.login-root .box-background--blue800 {
+  background-color: #212d63;
+}
+.login-root .box-background--gray100 {
+  background-color: #e3e8ee;
+}
+.login-root .box-background--cyan200 {
+  background-color: #7fd3ed;
+}
+.login-root .padding-top--64 {
+padding-top: 64px;
+}
+.login-root .padding-top--24 {
+padding-top: 24px;
+}
+.login-root .padding-top--48 {
+padding-top: 48px;
+}
+.login-root .padding-bottom--24 {
+padding-bottom: 24px;
+}
+.login-root .padding-horizontal--48 {
+padding: 48px;
+}
+.login-root .padding-bottom--15 {
+padding-bottom: 15px;
+}
+
+.login-root .flex-justifyContent--center {
+-ms-flex-pack: center;
+justify-content: center;
+}
+
+.login-root .formbg {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+.login-root span {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+.login-root label {
+  margin-bottom: 10px;
+}
+.login-root .reset-pass a,label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+.login-root .reset-pass > a {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.login-root .grid--50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.login-root .field input {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+}
+
+.login-root input[type="submit"] {
+  background-color: #007a6f;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.login-root .field-checkbox input {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px; 
+  box-shadow: unset;
+  min-height: unset;
+}
+.login-root .field-checkbox label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.login-root a.ssolink {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+.login-root .footer-link span {
+  font-size: 14px;
+  text-align: center;
+}
+.login-root .listing a {
+  color: #697386;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.login-root .animationRightLeft {
+animation: animationRightLeft 2s ease-in-out infinite;
+}
+.login-root .animationLeftRight {
+animation: animationLeftRight 2s ease-in-out infinite;
+}
+.login-root .tans3s {
+animation: animationLeftRight 3s ease-in-out infinite;
+}
+.login-root .tans4s {
+animation: animationLeftRight 4s ease-in-out infinite;
+}
+
+@keyframes animationLeftRight {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(1000px);
+}
+100% {
+  transform: translateX(0px);
+}
+} 
+
+@keyframes animationRightLeft {
+0% {
+  transform: translateX(0px);
+}
+50% {
+  transform: translateX(-1000px);
+}
+100% {
+  transform: translateX(0px);
+}
+} 

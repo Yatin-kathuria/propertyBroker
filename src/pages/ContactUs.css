@@ -1,0 +1,40 @@
+.contact {
+  width: 300px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading {
+  color: #007a6f;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.contact .bold {
+  color: #2e2e32;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contact .address {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact .query {
+  font-size: 20px;
+}
+
+.contact .phone, .contact .email {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #5e23dc;
+  line-height: 25px;
+  font-weight: 500;
+}
