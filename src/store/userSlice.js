@@ -1,9 +1,21 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+const initialUsers = [{
+  id: "0c9d3ec1-f3f7-71e1-9f05-dbca769bc9c4",
+  fullName: "Admin",
+  email: "admin@gmail.com",
+  password: "admin@1234",
+  gender: "male",
+  dateOfBirth: "2023-07-19",
+  address: "B-58A GALI NO.4",
+  contact: "7011913515",
+  role: "admin"
+}]
+
 export const userSlice = createSlice({
   name: 'user',
   initialState: {
-    users: [],
+    users: initialUsers,
     loggesInUser: null
   },
   reducers: {
